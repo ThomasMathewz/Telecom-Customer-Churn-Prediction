@@ -89,16 +89,16 @@ o	Robust for real-world deployment
 o	Performs well without aggressive hyperparameter tuning
 
 ### 7.4 Why Other Models Were Not Selected
-•	Logistic Regression
-o	High recall but poor precision
-o	Leads to excessive false churn alerts
-•	XGBoost / Gradient Boosting
-o	Strong precision but lower recall
-o	Misses a higher number of churn customers
-•	Decision Tree
-o	Simpler but less stable and lower overall performance
-•	HistGradientBoosting
-o	Efficient but weaker performance compared to Random Forest
+-	Logistic Regression
+  -	High recall but poor precision
+  -	Leads to excessive false churn alerts
+- XGBoost / Gradient Boosting
+  - Strong precision but lower recall
+  - Misses a higher number of churn customers
+- Decision Tree
+  -	Simpler but less stable and lower overall performance
+-	HistGradientBoosting
+  -	Efficient but weaker performance compared to Random Forest
 ________________________________________
 ## 8. Feature Importance
 Feature importance analysis highlights the variables that most strongly influence customer churn predictions. The results indicate that customer service interactions, usage patterns, and billing-related variables play a significant role in determining churn behavior. Customers with a higher number of customer service calls tend to show a greater likelihood of churn, suggesting dissatisfaction with service quality or issue resolution
