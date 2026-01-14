@@ -90,8 +90,8 @@ o	Performs well without aggressive hyperparameter tuning
 
 ### 7.4 Why Other Models Were Not Selected
 -	Logistic Regression
-  -	High recall but poor precision
-  -	Leads to excessive false churn alerts
+    -	High recall but poor precision
+    -	Leads to excessive false churn alerts
 - XGBoost / Gradient Boosting
   - Strong precision but lower recall
   - Misses a higher number of churn customers
