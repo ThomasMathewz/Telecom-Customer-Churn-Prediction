@@ -106,7 +106,7 @@ Why Random Forest was chosen:
 - Decision Tree
   -	Simpler but less stable and lower overall performance
 -	HistGradientBoosting
-  -	Efficient but weaker performance compared to Random Forest
+   -	Efficient but weaker performance compared to Random Forest
 ________________________________________
 ## 8. Feature Importance
 Feature importance analysis highlights the variables that most strongly influence customer churn predictions. The results indicate that customer service interactions, usage patterns, and billing-related variables play a significant role in determining churn behavior. Customers with a higher number of customer service calls tend to show a greater likelihood of churn, suggesting dissatisfaction with service quality or issue resolution
